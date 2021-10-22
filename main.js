@@ -7,13 +7,11 @@ const {
 } = require('electron')
 const path = require('path')
 
-
 require('electron-reload')(__dirname, {
   electron: require(`${__dirname}/node_modules/electron`)
 });
 
 const Window = require('./js/Window')
-
 
 function createWindow() {
   const { screen } = require('electron')

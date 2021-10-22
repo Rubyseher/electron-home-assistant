@@ -22,6 +22,7 @@
   "dependencies": {
     "electron-reload": "^2.0.0-alpha.1",
     "home-assistant-js-websocket": "^5.11.1",
+    "react": "^17.0.2",
     "websocket": "^1.0.34"
   }
 }
